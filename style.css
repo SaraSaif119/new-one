@@ -1,0 +1,376 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    display: inline; 
+}
+.div1{
+    background-size:cover;
+    background-image:url(img.png);
+    background-repeat: no-repeat;
+    color:black;
+    text-indent: 30px;
+    height: 500px;
+}
+.div2{
+    position: fixed;
+    top: 0%;
+    left:0% ;
+    display: flex;
+    background-color: gray;
+    width: 100vw;
+    opacity: .8;
+    color: blue;
+}
+ul{
+    margin-left: 500px;
+    word-spacing: 10px;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+.div2 a:hover{
+    text-decoration: underline black ;
+    color: blue;
+}
+.div3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    text-align: center;
+}
+.btn1,.btn2{
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.btn1{
+    background-color: gray;
+}
+.btn2{
+    background-color: blue;
+    color: white;
+}
+.btn1:hover{
+    background-color: blue;
+    color: white;
+}
+.btn2:hover{
+    background-color:grey;
+    color:blue;
+}
+.div5 {
+    border:1px solid black ;
+    margin: auto;
+    height:150px ;
+    width: 200px;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+.div7{
+    display: flex;
+}
+.div6,.div10,.div21{
+    width: 50px;
+    height: 10px;
+    margin: auto;
+    background-color: blue;
+    border-radius: 20px;
+}
+.div10{
+    background-color: black;
+}
+.div4{
+    text-align: center;
+    padding: 100px;
+}
+.i1{
+    color: blue;
+    margin: 20px;
+}
+.div5::after {
+    content: "";
+    position: absolute;
+    background-color: blUE;
+    opacity: 1;
+    width: 0%;
+    height: 0%;
+    
+    top: 0%;
+    left: 0%;
+    
+    transition: 2s;
+}
+.div5:hover::after{
+    width: 100%;
+    height:100% ;
+    opacity: 0.4;
+}
+.img1{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    position: relative;
+}
+.div8{
+    text-align: center;
+    background-color: black;
+    color: blue;
+    padding-top:50px ;
+}
+.div11{
+    background-color: rgb(9, 9, 49);
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.div12{
+    border:1px solid white ;
+    margin: auto;
+    height:150px ;
+    width: 200px;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    color: white;
+}
+.div12::after {
+    content: "";
+    position: absolute;
+    background-color: blUE;
+    opacity: 1;
+    width: 0%;
+    height: 100%;
+    
+    top: 0%;
+    left: 0%;
+    
+    transition: 2s;
+}
+.div12:hover::after{
+    width: 100%;
+    height:100% ;
+    opacity: 0.4;
+}
+.p2{
+    color: gray;
+}
+.div13{
+    height: 270px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: left;
+}
+.img3{
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+}
+.div15{
+    margin:50px ;
+    width:200px ;
+    height: 150px;
+}
+.div14{
+    background-image: url(img2.png);
+    background-size: cover;
+}
+.div16{
+    border:1px solid black;
+    margin: auto;
+    height:350px ;
+    width: 200px;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+.div18{
+    background-color: rgb(167, 29, 144);
+    text-align: center;
+    color:black;
+    padding:50px ;
+}
+.div17{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius:50px ;
+    margin: auto;
+}
+.btn3{
+    background-color:black;
+    width: 100px;
+    height:30px ;
+    border:none ;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
+}
+.p3{
+    margin:20px ;
+}
+.div16::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 1;
+    width: 100%;
+    height: 0%;
+    
+    top: 0%;
+    left: 0%;
+    
+    transition: 2s;
+}
+.div16:hover::after{
+    width: 100%;
+    height:100% ;
+    opacity: 0.4;
+}
+.btn3:hover{
+background-color: white;
+color: black;
+}
+.div20{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.div19{
+    width: 200px;
+    height: 450px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(9, 9, 49);
+    color: white;
+    padding:20px ;
+    text-align: left;
+    position: relative;
+}
+.div19::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity:1;
+    width: 100;
+    height: 0%;
+    
+    top: 0%;
+    left: 0%;
+    
+    transition: 2s;
+}
+.div19:hover::after{
+    width: 100%;
+    height:100% ;
+    opacity: 0.4;
+}
+.img2{
+    width:150px;
+    height: 180px;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.div21{
+    background-color: rgb(9, 9, 49);
+}
+.div22{
+    margin: 10px;
+    text-align: left;
+}
+.div23{
+    margin: auto;
+    height:250px ;
+    width: 150px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(3, 3, 43);
+    position: relative;
+    padding: 10px;
+}
+.div23::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 1;
+    width: 100%;
+    height: 0%;
+    
+    top: 0%;
+    left: 0%;
+    
+    transition: 2s;
+}
+.div23:hover::after{
+    width: 100%;
+    height:100% ;
+    opacity: 0.4;
+}
+.div24{
+    position: absolute;
+    margin-top: -170px;
+    visibility: hidden;
+}
+.i2{
+    color:rgb(4, 4, 8);
+    display: block;
+}
+.div23:hover .div24{
+ visibility:visible;
+}
+.div25{
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+    color: rgb(5, 5, 36);
+}
+.div25::after {
+    content: "";
+    position: absolute;
+    background-color:black;
+    opacity: 1;
+    width: 100%;
+    height: 0%;
+    
+    top: 0%;
+    left: 0%;
+    
+    transition: 2s;
+}
+.div25:hover::after{
+    width: 100%;
+    height:100% ;
+    opacity: 0.4;
+}
+.div26{
+    position: absolute;
+    margin-top: -170px;
+    visibility: hidden;
+}
+.div25:hover .div26{
+    visibility:visible;
+}
+.i3{
+    color: blue;
+}
+.i4{
+    color: rgb(215, 214, 226);
+    background-color: rgb(4, 4, 34);
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+    padding-top: 15px;
+}
